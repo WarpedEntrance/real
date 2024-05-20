@@ -30,7 +30,7 @@ module.exports = {
             const channel = client.guilds.cache.get('720339214641791006').channels.cache.get('970332616735744050')
             if (channel) {
                 //channel.send(`${Player.discordId ? `<@${Player.discordId}>` : Player.username} Just bought ${body.amount} days of supporter!`)
-                channel.send(`${Player.discordId ? `<@${Player.discordId}>` : Player.username} has just <:Supporter:974212321180254279> **supported** the foundation for ${body.amount} days!`)
+                channel.send(`${Player.discordId ? `<@${Player.discordId}>` : Player.username} has just donated to the foundation for ${body.amount} days! Thank you from command and -1` )
             }
 
             // Find the member in this discord server and give them the premium role
